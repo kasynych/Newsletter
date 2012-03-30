@@ -1,0 +1,4 @@
+subscriber_id;name;email;content_type;verification_code;status;group_title;group_description
+5;Lena1;lena@email.el;text;;confirmed;"Other people";"Group of other people"
+7;Lena1;lena@email.el;text;;deleted;"Other people,<br>Clients";"Group of other people"
+10;Ivan;ivan@mail.ru;text;"verification code";deleted;;

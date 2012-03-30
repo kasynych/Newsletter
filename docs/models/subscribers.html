@@ -1,0 +1,134 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<title>Newsletters: Documentation</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="../styles.css" />
+
+<script type="text/javascript" src="../js/nav.js"></script>
+<script type="text/javascript" src="../js/prototype.lite.js"></script>
+<script type="text/javascript" src="../js/moo.fx.js"></script>
+<script type="text/javascript" src="../js/user_guide_menu.js"></script>
+
+</head>
+<body>
+
+<!-- START NAVIGATION -->
+<div id="nav" style="overflow-x: hidden; overflow-y: hidden; height: 0px; "><div id="nav_inner">
+	<table cellpadding="0" cellspaceing="0" border="0" style="width:98%">
+		<tbody>
+			<tr>
+	<td class="td_sep" valign="top"><h3>Models Reference</h3><ul><li><a href="../models/admin.html">Admin</a></li><li><a href="../models/delivery.html">Delivery</a></li><li><a href="../models/newsletters_attachments.html">Newsletters Attachments</a></li><li><a href="../models/newsletters_groups.html">Newsletters Groups</a></li><li><a href="../models/newsletters.html">Newsletters</a></li><li><a href="../models/relations.html">Relations</a></li><li><a href="../models/schedules.html">Schedules</a></li><li><a href="../models/settings.html">Settings</a></li><li><a href="../models/statistics.html">Statistics</a></li><li><a href="../models/subscribers_groups.html">Subscribers Groups</a></li><li><a href="../models/subscribers.html">Subscribers</a></li><li><a href="../models/templates.html">Tempaltes</a></li><li><a href="../models/my_records.html">My Records</a></li></ul></td></tr></tbody></table></div></div>
+<div id="nav2"><a name="top"></a><a href="javascript:void(0);" onclick="myHeight.toggle();"><img src="../images/nav_toggle_darker.jpg" width="154" height="43" border="0" title="Toggle Table of Contents" alt="Toggle Table of Contents"></a></div>
+<div id="masthead">
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+<tr>
+<td><h1>Newsletters</h1></td>
+</tr>
+</table>
+</div>
+<!-- END NAVIGATION -->
+
+
+<!-- START BREADCRUMB -->
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+<tr>
+<td id="breadcrumb">
+Subscribers
+</td>
+</tr>
+</table>
+<!-- END BREADCRUMB -->
+
+<br clear="all" />
+
+
+<!-- START CONTENT -->
+<div id="content">
+
+
+<h1>Subscribers (extends <a href="my_records.html">my_records</a>)</h1>
+
+<p>Subscribers management</p>
+
+<h2>Methods</h2>
+
+<h3>Setters</h3>
+<p>Anologous to almost all models(see <a href="delivery.html">Delivery model</a>)</p>
+
+<h3>Getters</h3>
+<p>Anologous to almost all models(see <a href="delivery.html">Delivery model</a>)</p>
+
+<h3>$this->model_schedules->getList($conditions='',$order='')</h3>
+<p>Analogous to <a href="newsletters.html">model_newsletters->getList()</a></p>
+
+<h3>$this->model_schedules->getPagedList($conditions='',$page=null,$order='')</h3>
+<p>Analogous to <a href="newsletters.html">model_newsletters->getPagedList()</a></p>
+
+<h3>$this->model_subscribers->getGroups($subscriber_id)</h3>
+<p>Returns array of groups ids</p>
+
+<h3>$this->model_subscribers->add($data)</h3>
+<p>
+<ol>
+	<li>calls parent::add($this->getAttrs())</li>
+	<li>calls $this->model_relations->add() to set relation with subscribers_groups_records</li>
+</ol>
+</p>
+
+<h3>$this->model_subscribers->edit($data)</h3>
+<p>
+	<ol>
+		<li>calls parent::edit($this->getAttrs());</li>
+		<li>calls $this->model_relations->edit() to set relation with subscribers_groups_records</li>
+	</ol>
+</p>
+
+<h3>$this->model_subscribers->delete($subscriber_id)</h3>
+<p>Sets subscriber status to 'deleted'</p>
+
+
+<h3>$this->model_subscribers->activate($subscriber_id)</h3>
+<p>Sets subscriber status to 'subscribed'</p>
+
+<h3>$this->model_subscribers->setGroup($data)</h3>
+<p>
+Parameter $data is array(array $subscriber_id,$group_id)</br>
+For each subscriber method removes record from subscribers_groups_rel table and inserts new records with group_id=$group_id
+</p>
+
+<h3>$this->model_subscribers->export($ids)</h3>
+<p>
+<ol>
+	<li>Takes subscribers ids as parameter</li>
+	<li>Generates and stores CSV file</li>
+</ol>
+</p>
+
+<h3>$this->model_subscribers->import()</h3>
+<p>
+<ol>
+	<li>Uploads csv file</li>
+	<li>Stores each record to database</li>
+</ol>
+</p>
+
+<h3>$this->model_subscribers->sendActivationEmail()</h3>
+
+<h2>Attributes</h2>
+<ul>
+	<li>subscriber_id</li>
+	<li>name</li>
+	<li>email</li>
+	<li>content_type</li>
+	<li>status</li>
+	<li>verification_code</li>
+</ul>
+
+</div>
+<!-- END CONTENT -->
+
+</body>
+</html>

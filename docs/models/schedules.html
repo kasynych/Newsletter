@@ -1,0 +1,124 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<title>Newsletters: Documentation</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="../styles.css" />
+
+<script type="text/javascript" src="../js/nav.js"></script>
+<script type="text/javascript" src="../js/prototype.lite.js"></script>
+<script type="text/javascript" src="../js/moo.fx.js"></script>
+<script type="text/javascript" src="../js/user_guide_menu.js"></script>
+
+</head>
+<body>
+
+<!-- START NAVIGATION -->
+<div id="nav" style="overflow-x: hidden; overflow-y: hidden; height: 0px; "><div id="nav_inner">
+	<table cellpadding="0" cellspaceing="0" border="0" style="width:98%">
+		<tbody>
+			<tr>
+	<td class="td_sep" valign="top"><h3>Models Reference</h3><ul><li><a href="../models/admin.html">Admin</a></li><li><a href="../models/delivery.html">Delivery</a></li><li><a href="../models/newsletters_attachments.html">Newsletters Attachments</a></li><li><a href="../models/newsletters_groups.html">Newsletters Groups</a></li><li><a href="../models/newsletters.html">Newsletters</a></li><li><a href="../models/relations.html">Relations</a></li><li><a href="../models/schedules.html">Schedules</a></li><li><a href="../models/settings.html">Settings</a></li><li><a href="../models/statistics.html">Statistics</a></li><li><a href="../models/subscribers_groups.html">Subscribers Groups</a></li><li><a href="../models/subscribers.html">Subscribers</a></li><li><a href="../models/templates.html">Tempaltes</a></li><li><a href="../models/my_records.html">My Records</a></li></ul></td></tr></tbody></table></div></div>
+<div id="nav2"><a name="top"></a><a href="javascript:void(0);" onclick="myHeight.toggle();"><img src="../images/nav_toggle_darker.jpg" width="154" height="43" border="0" title="Toggle Table of Contents" alt="Toggle Table of Contents"></a></div>
+<div id="masthead">
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+<tr>
+<td><h1>Newsletters</h1></td>
+</tr>
+</table>
+</div>
+<!-- END NAVIGATION -->
+
+
+<!-- START BREADCRUMB -->
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+<tr>
+<td id="breadcrumb">
+Schedules
+</td>
+</tr>
+</table>
+<!-- END BREADCRUMB -->
+
+<br clear="all" />
+
+
+<!-- START CONTENT -->
+<div id="content">
+
+
+<h1>Schedules (extends <a href="my_records.html">my_records</a>)</h1>
+
+<p>Each newsletter record contains mail information(like content, subject etc). Schedules model is responsible for timing properties of newsletter(delivery date etc) and for relation with receivers.</p>
+
+<h2>Methods</h2>
+
+<h3>Setters</h3>
+<p>Anologous to almost all models(see <a href="delivery.html">Delivery model</a>)</p>
+
+<h3>Getters</h3>
+<p>Anologous to almost all models(see <a href="delivery.html">Delivery model</a>)</p>
+
+<h4>More getters:</h4>
+
+<h3>$this->model_schedules->getList($conditions='',$order='')</h3>
+<p>Analogous to <a href="newsletters.html">model_newsletters->getList()</a></p>
+
+<h3>$this->model_schedules->getPagedList($conditions='',$page=null,$order='')</h3>
+<p>Analogous to <a href="newsletters.html">model_newsletters->getPagedList()</a></p>
+
+<h3>$this->model_schedules->getReceivers($schedule_id)</h3>
+<p>This method is called from delivery controller and returns array of subscribers which are potential recipients of newsletters scheduled by schedule with schedule_id=$schedule_id</br>
+Remarkable is, that newsletter can be related to subscribers groups or to subscribers. Both these situations are forseen in this method.</p>
+<code>
+$receivers=$this->model_schedules->getReceivers($schedule['schedule_id']);
+</code>
+
+<h3>$this->model_schedules->getSubscribers($schedule_id)</h3>
+<p>Gets subscribers ids wich are related to schedules table through schedule_subscribers_rel table</p>
+
+<h3>$this->model_schedules->getSubscribersGroups($schedule_id)</h3>
+<p>Gets subscribers groups ids wich are related to schedules table through schedule_subscribers_groups_rel table</p>
+
+<h3>$this->model_schedules->add($data)</h3>
+<p>Adds record to schedules table and either to schedule_subscribers_rel or to schedule_subscribers_groups_rel table</p>
+
+<h3>$this->model_schedules->edit($data)</h3>
+<p>Updates record in schedules table and either in schedule_subscribers_rel or in schedule_subscribers_groups_rel table</p>
+
+<h3>$this->model_schedules->delete($schedule_id)</h3>
+<p>Deletes record in schedules table and either in schedule_subscribers_rel or in schedule_subscribers_groups_rel table</p>
+
+<h3>$this->model_schedules->toDeliver($schedule_id)</h3>
+<p>This method checks whether scheduled newsletter should be delivered at the moment or not.</br>
+In case if delivery date was set in send_datetime field method method checks whether it's the value of field correcponds current time.<br>
+In case if delivery date was set by field time_rules(which has UNIX format"* * * * *") method explodes time_rule by ' ' and for each part calls private method checkTimeRules()</p>
+
+<h3>$this->model_schedules->checkTimeRules($el,$value)</h3>
+<p>Parameter $el can have values: 'Y','m','d','H','i'<br>
+Returns true if the $value corresponds current time value of type $el</br>
+Returns false if not
+</p>
+
+<h3>$this->model_schedules->formatTimeRule($value)</h3>
+<p>This method is called from checkTimeRules() method. It checks what format the $value has(ex: [*], [*/2], [2],[2-10])<br>
+returns format number and a value(s) (2, 10)
+</p>
+
+<h2>Attributes</h2>
+<ul>
+	<li>schedule_id</li>
+	<li>title</li>
+	<li>newsletter_id</li>
+	<li>time_rules</li>
+	<li>send_datetime</li>
+	<li>status</li>
+</ul>
+
+</div>
+<!-- END CONTENT -->
+
+</body>
+</html>

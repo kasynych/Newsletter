@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<title>Newsletter: Documentation</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="../styles.css" />
+
+<script type="text/javascript" src="../js/nav.js"></script>
+<script type="text/javascript" src="../js/prototype.lite.js"></script>
+<script type="text/javascript" src="../js/moo.fx.js"></script>
+<script type="text/javascript" src="../js/user_guide_menu.js"></script>
+
+</head>
+<body>
+
+<!-- START NAVIGATION -->
+<div id="nav" style="overflow-x: hidden; overflow-y: hidden; height: 0px; "><div id="nav_inner">
+	<table cellpadding="0" cellspaceing="0" border="0" style="width:98%">
+		<tbody>
+			<tr>
+	<td class="td_sep" valign="top"><h3>Models Reference</h3><ul><li><a href="../models/admin.html">Admin</a></li><li><a href="../models/delivery.html">Delivery</a></li><li><a href="../models/newsletters_attachments.html">Newsletters Attachments</a></li><li><a href="../models/newsletters_groups.html">Newsletters Groups</a></li><li><a href="../models/newsletters.html">Newsletters</a></li><li><a href="../models/relations.html">Relations</a></li><li><a href="../models/schedules.html">Schedules</a></li><li><a href="../models/settings.html">Settings</a></li><li><a href="../models/statistics.html">Statistics</a></li><li><a href="../models/subscribers_groups.html">Subscribers Groups</a></li><li><a href="../models/subscribers.html">Subscribers</a></li><li><a href="../models/templates.html">Tempaltes</a></li><li><a href="../models/my_records.html">My Records</a></li></ul></td></tr></tbody></table></div></div>
+<div id="nav2"><a name="top"></a><a href="javascript:void(0);" onclick="myHeight.toggle();"><img src="../images/nav_toggle_darker.jpg" width="154" height="43" border="0" title="Toggle Table of Contents" alt="Toggle Table of Contents"></a></div>
+<div id="masthead">
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+<tr>
+<td><h1>Newsletters</h1></td>
+</tr>
+</table>
+</div>
+<!-- END NAVIGATION -->
+
+
+<!-- START BREADCRUMB -->
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+<tr>
+<td id="breadcrumb">
+Delivery
+</td>
+</tr>
+</table>
+<!-- END BREADCRUMB -->
+
+<br clear="all" />
+
+
+<!-- START CONTENT -->
+<div id="content">
+
+
+<h1>Delivery (extends <a href="my_records.html">my_records</a>)</h1>
+
+<p>Class, which performs newsletters delivery based on schedules and stores delivery results in database</p>
+
+<h2>Methods</h2>
+
+<h3>setAttrs(array $data)</h3>
+<p>Sets attrs values of delivery object, calling setter for each attribute in case if it was not given empty</p>
+<code>
+$this->model_delivery->setAttrs(array('schedule_id'=>$schedule_id,
+										 'newsletter_id'=>$newsletter_id,
+						  				 'receivers'=>$receivers,
+										 'datetime'=>date('Y-m-d H:i:s'),
+										 'status'=>'started'));
+</code>
+
+<h3>setSchedule($schedule_id)</h3>
+<p>Creates model_schedules object and initiates it with data from schedules table. However I could not resolve how to create multiple models object, thus it's behaving like class</p>
+<code>
+if(isset($data['schedule_id'])) $this->setSchedule($data['schedule_id']);
+</code>
+
+<h3>setNewsletter($newsletter_id)</h3>
+<p>Creates model_newsletters object and initiates it with data from newsletters table. However I could not resolve how to create multiple models object, thus it's behaving like class</p>
+<code>
+if(isset($data['newsletter_id'])) $this->setNewsletter($data['newsletter_id']);
+</code>
+
+<h3>setReceivers($receivers)</h3>
+<p>Sets attribute $receivers to array of records(array) from subscribers table</p>
+<code>
+if(isset($data['receivers'])) $this->setReceivers($data['receivers']);
+</code>
+
+<h3>setDateTime($datetime)</h3>
+<p>Checks whether string date format is correct and stores it in $datetime attribute</p>
+<code>
+if(isset($data['datetime'])) $this->setDateTime($data['datetime']);
+</code>
+
+<h3>setStatus($value)</h3>
+<p>Sets $status attribute to string value</p>
+<code>
+if(isset($data['status'])) $this->setStatus($data['status']);
+</code>
+
+<h3>empty()</h3>
+<p>Sets all attributes to NULL</p>
+<code>
+$this->empty();
+</code>
+
+<h3>get($condition)</h3>
+<p>Calls method get($condition) of parent class my_records if $conditions is not empty, otherwise returns empty arrayof attributes</p>
+<code>
+$this->model_delivery->get($conditions);
+</code>
+
+<h3>getAttrs()</h3>
+<p>Returns array of those attributes, which are not null and correspod fields of table which the model is resposible for</p>
+<code>
+$this->getAttrs();
+</code>
+
+<h3>deliver()</h3>
+<p>Performs delivery of newsletter email to receivers and stores delivery data in delivery tale</p>
+<code>
+$this->model_delivery->deliver();
+</code>
+
+<h3>store()</h3>
+<p>Stores time, status, schedule_id to delivery table and changes status of schedule record in schedule table</p>
+<code>
+$this->model_delivery->deliver();
+</code>
+
+<h2>Attributes</h2>
+
+<table cellpadding="0" cellspacing="1" border="0" style="width:100%" class="tableborder">
+<tr>
+	<th>Attribute</th>
+	<th>Default&nbsp;Value</th>
+	<th>Options</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td class="td"><strong>delivery_id</strong></td>
+	<td class="td">null</td>
+	<td class="td">None</td>
+	<td class="td">Primary Key</td>
+</tr>
+<tr>
+	<td class="td"><strong>schedule_id</strong></td>
+	<td class="td">null</td>
+	<td class="td">None</td>
+	<td class="td">Schedule ID</td>
+</tr>
+<tr>
+	<td class="td"><strong>receivers</strong></td>
+	<td class="td">null</td>
+	<td class="td">None</td>
+	<td class="td">Array of receivers</td>
+</tr>
+<tr>
+	<td class="td"><strong>datetime</strong></td>
+	<td class="td">null</td>
+	<td class="td">None</td>
+	<td class="td">date and time in "Y-m-d H:i:s" format</td>
+</tr>
+</table>
+
+
+
+</div>
+<!-- END CONTENT -->
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+subscriber_id;name;email;content_type;verification_code;status;group_title
+5;Lena11;lena@email.el;text;;deleted;"Other people"
+7;Lena1;lena@email.el;text;;deleted;"Other people"
+10;Ivan;ivan@mail.ru;text;"verification code";confirmed;
+12;Tania;tania@mail.ru;text;;deleted;"Other people"
+17;Lena11;lena@email.el;text;;deleted;Musicians
+18;Lena1;lena@email.el;text;;confirmed;
+19;Ivan;ivan@mail.ru;text;"verification code";deleted;
+20;Tania;tania@mail.ru;text;;confirmed;
