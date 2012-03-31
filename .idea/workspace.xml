@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e8df213-4223-40c7-b2fb-06dda9fc4bc2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/bg_related_act.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/bubble_inner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/bubble_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/bubble_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/choose-file.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/error_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/error_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/form_inp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/form_inp_error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/form_reset.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/form_select.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/form_select_small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/form_submit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/form_textarea.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/header_related_act.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/icon_calendar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/icon_edit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/icon_list_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/icon_minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/icon_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/lines_dotted_short.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/step_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/step_dark_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/step_dark_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/step_dark_round.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/step_light_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/step_light_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/step_light_round.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/forms/upload_file.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/login/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/login/icon_back_login.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/login/inp_login.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/login/login_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/login/loginbox_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/login/submit_login.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/border_bit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/cal_th_repeat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/cal_top_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/cal_top_repeat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/checkbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/content_repeat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/corner_bottom_left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/corner_bottom_right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/corner_top_left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/corner_top_right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/icon_idlogo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/Copy of pro_line_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/account_drop_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/account_line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/back_0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/back_1x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/divider.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/icon_acc_inbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/icon_acc_personal.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/icon_acc_projects.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/icon_acc_settings.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/icon_acc_stats.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/nav_logout.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/nav_myaccount.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/pro_line_0x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/pro_line_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/pro_line_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/nav/repeat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/side_shadowleft.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/side_shadowright.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/top_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/top_search_btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/top_search_inp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/top_search_select.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/year_next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/shared/year_prev.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/action_delete.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/action_edit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/actions_slider_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/content_round_repeat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/content_round_top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/dropdown_actions.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/icon_close_blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/icon_close_green.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/icon_close_red.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/icon_close_yellow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/message_blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/message_green.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/message_red.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/message_yellow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/paging_far_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/paging_far_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/paging_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/paging_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/select_number_rows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/table_header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/table_header_checkbox.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/table_header_options.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/table_header_repeat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/table_icon_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/table_icon_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/table_icon_3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/table_icon_4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/table_icon_5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/images/table/table_sort_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/css/datePicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/css/pro_dropline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/css/pro_dropline_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/css/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/css/styles_admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/Copy of custom_jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/custom_jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery-1.4.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery.bind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery.datePicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery.dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery.filestyle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery.pngFix.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery.selectbox-0.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery.selectbox-0.5_style_2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery.selectbox-0.5_style_3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/jquery.usermode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/ui.checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/js/ui.core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/home.php" afterPath="$PROJECT_DIR$/application/controllers/admin/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/settings.php" afterPath="$PROJECT_DIR$/application/controllers/admin/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/settings.ini" afterPath="$PROJECT_DIR$/application/settings.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/tmp/export.csv" afterPath="$PROJECT_DIR$/application/tmp/export.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/tmp/import.csv" afterPath="$PROJECT_DIR$/application/tmp/import.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/home.php" afterPath="$PROJECT_DIR$/application/views/admin/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/layout.php" afterPath="$PROJECT_DIR$/application/views/admin/layout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/login.php" afterPath="$PROJECT_DIR$/application/views/admin/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/newsletters.php" afterPath="$PROJECT_DIR$/application/views/admin/newsletters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/newsletters_groups.php" afterPath="$PROJECT_DIR$/application/views/admin/newsletters_groups.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/schedules.php" afterPath="$PROJECT_DIR$/application/views/admin/schedules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/subscriber_form.php" afterPath="$PROJECT_DIR$/application/views/admin/subscriber_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/subscribers.php" afterPath="$PROJECT_DIR$/application/views/admin/subscribers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/subscribers_groups.php" afterPath="$PROJECT_DIR$/application/views/admin/subscribers_groups.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/templates.php" afterPath="$PROJECT_DIR$/application/views/admin/templates.php" />
+    </list>
+    <ignored path="newsletter.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="newsletter" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="layout.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/layout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="259" column="107" selection-start="11918" selection-end="11918" vertical-scroll-proportion="-1.862745">
+              <folding>
+                <marker date="1333192136203" expanded="true" signature="13611:13820" placeholder="..." />
+                <marker date="1333192136203" expanded="true" signature="13677:13820" placeholder="..." />
+                <marker date="1333192136203" expanded="true" signature="13763:13820" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedules.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/schedules.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="110" selection-start="5271" selection-end="5271" vertical-scroll-proportion="-15.307693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newsletters.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/newsletters.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="88" selection-start="1841" selection-end="1841" vertical-scroll-proportion="-13.346154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newsletters_groups.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/newsletters_groups.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="214" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.43514645">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscribers_groups.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/subscribers_groups.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="88" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-12.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templates.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/templates.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="88" selection-start="1838" selection-end="1838" vertical-scroll-proportion="-13.153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/css/screen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="948" column="13" selection-start="17692" selection-end="17692" vertical-scroll-proportion="-10.44">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+    <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/application/views/admin/login.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/home.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/home.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/settings.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/subscriber_form.php" />
+        <option value="$PROJECT_DIR$/application/css/screen.css" />
+        <option value="$PROJECT_DIR$/application/views/admin/layout.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/subscribers.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/templates.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/newsletters.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/subscribers_groups.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/schedules.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/newsletters_groups.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="1" />
+    <option name="width" value="1019" />
+    <option name="height" value="707" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="web.server" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="51983162-a5f5-439c-9755-68c2798793cb">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\newsletter\application\images" />
+      <recent name="C:\xampp\htdocs\newsletter\application\libraries\js" />
+      <recent name="C:\xampp\htdocs\newsletter\application\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" scope="Directory">
+      <TestRunner />
+      <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method>
+        <option name="FtpUpload" enabled="false">
+          <server_id />
+          <server_name />
+        </option>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1333173813515</created>
+      <updated>1333173813515</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="1" width="1019" height="707" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291815" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24299066" sideWeight="0.6708185" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/libraries/js/custom_jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="8" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.98282444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="42" selection-start="208" selection-end="208" vertical-scroll-proportion="0.2849162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="90" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="40" selection-start="159" selection-end="159" vertical-scroll-proportion="0.19465649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/errors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.050813008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/subscriber_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="948" column="13" selection-start="17692" selection-end="17692" vertical-scroll-proportion="-10.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="259" column="107" selection-start="11918" selection-end="11918" vertical-scroll-proportion="-1.862745">
+          <folding>
+            <marker date="1333192136203" expanded="true" signature="13611:13820" placeholder="..." />
+            <marker date="1333192136203" expanded="true" signature="13677:13820" placeholder="..." />
+            <marker date="1333192136203" expanded="true" signature="13763:13820" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/templates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="88" selection-start="1838" selection-end="1838" vertical-scroll-proportion="-13.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/newsletters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="88" selection-start="1841" selection-end="1841" vertical-scroll-proportion="-13.346154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/subscribers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-1.2573222">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/subscribers_groups.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="88" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-12.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/schedules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="110" selection-start="5271" selection-end="5271" vertical-scroll-proportion="-15.307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/newsletters_groups.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="214" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.43514645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

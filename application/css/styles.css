@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+	text-align:center;
+	font-size:11px;
+	width:100%;
+	font-family:Arial;
+}
+
+.layout{
+	margin:auto;
+	width:900px;
+	text-align:left;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#666666;
+}
+
+.errors{
+	width:100%;
+	margin:5px 0px 5px 0px;
+	padding:3px;
+	list-style:none;
+	color:red;
+}
+
+.errors p{
+	margin:0px;
+	padding:0px;
+}

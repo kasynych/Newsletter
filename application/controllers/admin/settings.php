@@ -4,6 +4,7 @@ class Settings extends Admin_Controller{
 		parent::__construct();
 	}
 	function index(){
+        $this->data['title']='Settings';
 		if($this->input->post()!==false){
 			$this->form_validation->set_rules('from','From Email','required|xss_clean|valid_email|max_length=40');
 			$this->form_validation->set_rules('from_name','From Name','required|xss_clean|max_length=50');
@@ -15,12 +16,12 @@ class Settings extends Admin_Controller{
 			$this->form_validation->set_rules('newsletters_per_page','Newsletters Per Page','required|xss_clean|max_length=10|integer');
 			$this->form_validation->set_rules('subscribers_per_page','Subscribers Per Page','required|xss_clean|max_length=10|integer');
 			$this->form_validation->set_rules('schedules_per_page','Schedules Per Page','required|xss_clean|max_length=10|integer');
-			
+
 			if($this->form_validation->run()===FALSE){
 				$this->data['settings']=$this->input->post();
 				$this->data['content']='settings_form';
 				$this->load->view('admin/layout',$this->data);
-				
+
 			}else{
 				try{
 					$this->model_settings->store($this->input->post());
@@ -28,11 +29,11 @@ class Settings extends Admin_Controller{
 					$this->data['errors']=$e->getMessage();
 					$this->data['settings']=$this->input->post();
 					$this->data['content']='settings_form';
-					$this->load->view('admin/layout',$this->data);					
+					$this->load->view('admin/layout',$this->data);
 				}
-				
+
 				$this->data['message']='Settings successfully stored';
-				try{	
+				try{
 					$this->data['settings']=$this->model_settings->get();
 				}catch(Exception $e){
 					$this->data['errors']='Error getting settings';
@@ -40,12 +41,12 @@ class Settings extends Admin_Controller{
 					$this->load->view('admin/layout',$this->data);
 					return true;
 				}
-			
+
 				$this->data['content']='settings_form';
-				$this->load->view('admin/layout',$this->data);	
+				$this->load->view('admin/layout',$this->data);
 			}
 		}else{
-			try{	
+			try{
 				$this->data['settings']=$this->model_settings->get();
 			}catch(Exception $e){
 				$this->data['errors']='Error getting settings';
@@ -53,7 +54,7 @@ class Settings extends Admin_Controller{
 				$this->load->view('admin/layout',$this->data);
 				return true;
 			}
-		
+
 			$this->data['content']='settings_form';
 			$this->load->view('admin/layout',$this->data);
 		}

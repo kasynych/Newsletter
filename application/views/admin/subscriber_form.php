@@ -1,8 +1,3 @@
-<div class="errors">
-<?php
-echo validation_errors(); 
-?>
-</div>
 <form action="<?php echo $base_url?>index.php/admin/subscribers/<?php echo $form_action;?>" method="post">
 	<table>
 		<tr>

@@ -7,6 +7,7 @@ class Home extends Admin_Controller{
 	
 	public function index(){
 		$this->data['content']='home';
+        $this->data['title']="Admin Home";
 		$this->load->view('admin/layout',$this->data);
 	}
 	
