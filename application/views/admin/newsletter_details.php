@@ -1,20 +1,21 @@
+<?php require_once "content_header1.php"; ?>
 <?php if(is_array($newsletter)&&!empty($newsletter)){
 ?>
-<table>
+<table id="id-form">
 	<tr>
-		<td>Subject:</td>
+		<th width=100px>Subject:</th>
 		<td><?php echo $newsletter['subject']?></td>
 	</tr>
 	<tr>
-		<td valign=top>Text Version:</td>
+		<th valign=top>Text Version:</th>
 		<td><?php echo empty($newsletter['text_body'])?'None':$newsletter['text_body']?></td>
 	</tr>	
 	<tr>
-		<td valign=top>HTML Version:</td>
+		<th valign=top>HTML Version:</th>
 		<td><?php echo empty($newsletter['html_body'])?'None':$newsletter['html_body']?></td>
 	</tr>
 	<tr>
-		<td>Groups:</td>
+		<th>Groups:</th>
 		<td>
 <?php if(count($newsletter['groups'])>0)
 		foreach($newsletter['groups'] as $group)
@@ -25,8 +26,9 @@
 	</tr>
 	<tr>
 		<td colspan=2>
-			<input type="button" onclick="document.location.href='<?php echo $base_url?>index.php/admin/newsletters/edit/<?php echo $newsletter['newsletter_id']?>'" value="Edit">
-			</br><a href="<?php echo $base_url;?>index.php/admin/newsletters">&lt;&lt;back</a>
+			<input type="button" class="form-submit" onclick="document.location.href='<?php echo $base_url?>index.php/admin/newsletters/edit/<?php echo $newsletter['newsletter_id']?>'" value="Edit">
+            <div class="clear"></div>
+            <input type="button" class="form-reset" onclick="document.location.href='<?php echo $base_url;?>index.php/admin/newsletters'" value="<< Back">
 		</td>
 	</tr>
 </table>
@@ -34,8 +36,10 @@
  echo '<h3>Schedules</h3>';
 	foreach($schedules as $index=>$schedule){
 		require('schedule_details.php');
-		if($index<count($schedules)) echo '<hr>';
+		if($index<count($schedules)-1) echo '<hr>';
 	}
 }?>	
 <?php 
 }else echo 'Newsletter not found';?>
+
+<?php require_once "content_footer1.php"; ?>

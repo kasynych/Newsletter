@@ -1,9 +1,4 @@
-<div class="errors">
-<?php
-echo validation_errors(); 
-?>
 
-</div>
 <script type="text/javascript" src="<?php echo $base_url?>application/libraries/js/ckeditor/ckeditor.js"></script>
 <script>
 	$(document).ready(function(){
@@ -47,120 +42,118 @@ echo validation_errors();
 			});
 	}	
 </script>
+<?php require_once "content_header1.php"; ?>
 <form action="<?php echo $base_url?>index.php/admin/newsletters/<?php echo $form_action;?>" method="post" enctype="multipart/form-data">
-	<table>
-		<tr>
-			<td>Subject:</td>
-			<td>
-				<input type="text" name="subject" value="<?php echo $newsletter['subject']?>" size=70 />
-			</td>
-		</tr>
-		<tr>
-			<td>Template:</td>
-			<td>
-				<select name="template_id">
-					<option value="0">Select Template</option>
+    <table border="0" cellpadding="0" cellspacing="0"  id="id-form">
+        <tr>
+            <th>Subject:</th>
+            <td>
+                <input class="inp-form" type="text" name="subject" value="<?php echo $newsletter['subject']?>" size=70 />
+            </td>
+        </tr>
+        <tr>
+            <th>Template:</th>
+            <td>
+                <select name="template_id"  class="styledselect_form_1"><option value="0">Select Template</option>
 <?php if(!empty($templates)){
-		foreach($templates as $template){
+        foreach($templates as $template){
 ?>
-					<option value="<?php echo $template['template_id']?>"
-							<?php echo $template['template_id']==$newsletter['template_id']?'selected=selected':''?>>
-						<?php echo $template['subject']?>		
-					</option>
-<?php			
-		}
+                    <option value="<?php echo $template['template_id']?>"
+                            <?php echo $template['template_id']==$newsletter['template_id']?'selected=selected':''?>><?php echo $template['subject']?>
+                    </option>
+<?php
+        }
 ?>
-<?php }?>					
-				</select>
-			</td>
-		</tr>		
-		<tr>
-			<td valign=top width=100><a href="javascript:void()" id="text_label">Text Version</a>:</td>
-			<td>
-				<textarea rows="10" cols="70" name="text_body" id="text_body"><?php echo $newsletter['text_body']?></textarea>
-			</td>
-		</tr>
-		<tr>
-			<td valign=top width=100><a href="javascript:void()" id="html_label">HTML Version</a>:</td>
-			<td>
-				<div id="html_area">
-				<textarea rows="10" cols="40" name="html_body" id="html_body"><?php echo $newsletter['html_body']?></textarea>
-				</div>
-				<script type="text/javascript">
-		
-					CKEDITOR.replace( 'html_body',
-							{
-						toolbar : [
-									{ name: 'document', items : [ 'Source']},
-									{ name: 'basicstyles', items : [ 'Bold','Italic' ] },
-									{ name: 'paragraph', items : [ 'NumberedList','BulletedList' ] },
-									{ name: 'tools', items : [ 'Maximize','-','About' ] },
-									{ name: 'insert', items : [ 'Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak'
-									                            ,'Iframe' ] },
-									{ name: 'basicstyles', items : [ 'Bold','Italic','Strike','-','RemoveFormat' ] },
-									{ name: 'paragraph', items : [ 'NumberedList','BulletedList','-','Outdent','Indent','-','Blockquote' ] },
-									{ name: 'links', items : [ 'Link','Unlink','Anchor' ] },
-									{ name: 'tools', items : [ 'Maximize','-','About' ] },
-									{ name: 'styles', items : [ 'Styles','Format','Font','FontSize' ] },
-									{ name: 'colors', items : [ 'TextColor','BGColor' ] },
-									{ name: 'tools', items : [ 'Maximize', 'ShowBlocks','-','About' ] }									                          
-								]
-					});
-				</script>
-			</td>
-		</tr>
+<?php }?>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th valign=top width=100><a href="javascript:void()" id="text_label">Text Version</a>:</th>
+            <td>
+                <textarea rows="10" cols="70" class="form-textarea" name="text_body" id="text_body"><?php echo $newsletter['text_body']?></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th valign=top width=100><a href="javascript:void()" id="html_label">HTML Version</a>:</th>
+            <td>
+                <div id="html_area">
+                <textarea rows="10" cols="40" name="html_body" id="html_body"><?php echo $newsletter['html_body']?></textarea>
+                </div>
+                <script type="text/javascript">
+
+                    CKEDITOR.replace( 'html_body',
+                            {
+                        toolbar : [
+                                    { name: 'document', items : [ 'Source']},
+                                    { name: 'basicstyles', items : [ 'Bold','Italic' ] },
+                                    { name: 'paragraph', items : [ 'NumberedList','BulletedList' ] },
+                                    { name: 'tools', items : [ 'Maximize','-','About' ] },
+                                    { name: 'insert', items : [ 'Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak'
+                                                                ,'Iframe' ] },
+                                    { name: 'basicstyles', items : [ 'Bold','Italic','Strike','-','RemoveFormat' ] },
+                                    { name: 'paragraph', items : [ 'NumberedList','BulletedList','-','Outdent','Indent','-','Blockquote' ] },
+                                    { name: 'links', items : [ 'Link','Unlink','Anchor' ] },
+                                    { name: 'tools', items : [ 'Maximize','-','About' ] },
+                                    { name: 'styles', items : [ 'Styles','Format','Font','FontSize' ] },
+                                    { name: 'colors', items : [ 'TextColor','BGColor' ] },
+                                    { name: 'tools', items : [ 'Maximize', 'ShowBlocks','-','About' ] }
+                                ]
+                    });
+                </script>
+            </td>
+        </tr>
 <?php
 if(isset($groups)&&count($groups)>0){
-?>					
-		<tr>
-			<td valign=top>Group:</td>
-			<td>
-				<select name='group_id[]' multiple>
-<?php
-	foreach($groups as $group){
-?>	
-					 <option value="<?php echo $group['group_id']?>"
-					 		 <?php echo in_array($group['group_id'],$newsletter['groups'])?'selected=selected':''?>>
-					 	<?php echo $group['title']?>
-					 </option>		
-<?php
-	} 
 ?>
-				</select>
-			</td>
-		</tr>		
+        <tr>
+            <th valign=top>Group:</th>
+            <td>
+                <select name='group_id[]' multiple class="styledselect_form_1">
 <?php
-} 
+    foreach($groups as $group){
 ?>
-		<tr>
-			<td colspan=2><?php require_once 'newsletter_attachments.php';?></td>
-		</tr>
-		<tr>
-			<td colspan=2>
-				<a href="javascript:void()" id="add_attachment">Add attachment</a>
-				<div id="attachments">
-				</div>
-			</td>
-		</tr>
-<?php if($form_action=='add'){?>		
-		<tr>
-			<td colspan="2" style="padding-top:20px">
-				<a href="javascript:void()" id="show_send_form">Set Delivery Options</a>
-			</td>
-		</tr>
-		<tr id="send_form">
-			<td colspan="2">
-				<?php require_once('newsletter_send_form.php')?>
-			</td>
-		</tr>		
-<?php }?>		
-		<tr>
-			<td colspan=2>
-				<input type="submit" value="Save" name='submit'>&nbsp;&nbsp;
-				<input type="button" value="Cancel" onclick="javascript:document.location.href='<?php echo $base_url?>index.php/admin/newsletters'" />				
-			</td>
-		</tr>
+                     <option value="<?php echo $group['group_id']?>"
+                             <?php echo in_array($group['group_id'],$newsletter['groups'])?'selected=selected':''?>><?php echo $group['title']?></option>
+<?php
+    }
+?>
+                </select>
+            </td>
+        </tr>
+<?php
+}
+?>
+        <tr>
+            <td colspan=2><?php require_once 'newsletter_attachments.php';?></td>
+        </tr>
+        <tr>
+            <th colspan=2>
+                <a href="javascript:void(0);" id="add_attachment">Add attachment</a>
+                <div id="attachments">
+                </div>
+            </th>
+        </tr>
+<?php if($form_action=='add'){?>
+        <tr>
+            <th colspan="2" style="padding-top:20px">
+                <a href="javascript:void(0);" id="show_send_form">Set Delivery Options</a>
+            </th>
+        </tr>
+        <tr id="send_form">
+            <td colspan="2">
+                <?php require_once('newsletter_send_form.php')?>
+            </td>
+        </tr>
+<?php }?>
+        <tr>
+            <td colspan=2>
+                <input type="submit" value="Save" name='submit' class="form-submit">
+                <input type="button" value="Cancel" class="form-reset" onclick="javascript:document.location.href='<?php echo $base_url?>index.php/admin/newsletters'" />
+            </td>
+        </tr>
 
-		
-	</table>
+
+    </table>
 </form>
+<?php require_once "content_footer1.php"; ?>

@@ -1,20 +1,21 @@
+<?php require_once "content_header1.php"; ?>
 <?php if(is_array($subscriber)&&!empty($subscriber)){
 ?>
-<table>
+<table id="id-form">
 	<tr>
-		<td>Name:</td>
+		<th>Name:</th>
 		<td><?php echo $subscriber['name']?></td>
 	</tr>
 	<tr>
-		<td>Email:</td>
+		<th>Email:</th>
 		<td><?php echo $subscriber['email']?></td>
 	</tr>
 	<tr>
-		<td>Content Type:</td>
+		<th>Content Type:</th>
 		<td><?php echo $subscriber['content_type']?></td>
 	</tr>
 	<tr>
-		<td valign=top>Groups:</td>
+		<th valign=top>Groups:</th>
 		<td>
 <?php if(count($subscriber['groups'])>0)
 		foreach($subscriber['groups'] as $group)
@@ -24,23 +25,25 @@
 		</td>
 	</tr>		
 	<tr>
-		<td>Added:</td>
+		<th>Added:</th>
 		<td><?php if($subscriber['added_datetime']!='0000-00-00 00:00:00')
 					echo date('d/m/Y H:i:s',strtotime($subscriber['added_datetime']));
 				  else echo 'Unknown';?>
 		</td>
 	</tr>						
 	<tr>
-		<td>Status:</td>
+		<th>Status:</th>
 		<td><?php echo $subscriber['status']?></td>
 	</tr>						
 	<tr>
 		<td colspan=2>
-			<input type="button" onclick="document.location.href='<?php echo $base_url?>index.php/admin/subscribers/edit/<?php echo $subscriber['subscriber_id']?>'" value="Edit">
-			</br><a href="<?php echo $base_url;?>index.php/admin/subscribers">&lt;&lt;back</a>
+			<input type="button" class="form-submit" onclick="document.location.href='<?php echo $base_url?>index.php/admin/subscribers/edit/<?php echo $subscriber['subscriber_id']?>'" value="Edit">
+            <div class="clear"></div>
+            <input type="button" class="form-reset" onclick="document.location.href='<?php echo $base_url;?>index.php/admin/subscribers'" value="<< Back">
 		</td>
 	</tr>	
 </table>
 <?php	
 }else echo 'Subscriber not found';
 ?>
+<?php require_once "content_footer1.php"; ?>

@@ -15,6 +15,9 @@
     <script src="<?php echo $base_url;?>application/libraries/js/ui.core.js" type="text/javascript"></script>
     <script src="<?php echo $base_url;?>application/libraries/js/ui.checkbox.js" type="text/javascript"></script>
     <script src="<?php echo $base_url;?>application/libraries/js/jquery.bind.js" type="text/javascript"></script>
+    <script>
+        var base_url="<?php echo $base_url; ?>";
+    </script>
     <script type="text/javascript">
         $(function(){
             $('input').checkBox();
@@ -332,5 +335,16 @@
             <div class="clear">&nbsp;</div>
         </div>
         <!--  end content-outer........................................................END -->
+<div class="clear">&nbsp;</div>
+
+<!-- start footer -->
+<div id="footer">
+    <!--  start footer-left -->
+    <div id="footer-left">
+        Designed by <a href="http://www.netdreams.co.uk" target="_blank">www.netdreams.co.uk</a>. &copy; Copyright Internet Dreams Ltd. All rights reserved.</div>
+    <!--  end footer-left -->
+    <div class="clear">&nbsp;</div>
+</div>
+<!-- end footer -->
 </body>
 </html>

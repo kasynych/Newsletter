@@ -168,17 +168,19 @@ if (!empty($subscribers)) {
                                     if (isset($component))
                                         if ($component == 'subscribers_groups') {
                                             ?>
-                                            &nbsp;&nbsp;<input type="submit" value="Exclude from group" id='exclude_from_group'/>
+                                            <br/><input type="submit" value="Exclude" id='exclude_from_group' class="form-submit2"/>
                                             <?php
                                         }
                                     ?>
                                 </td>
                             </tr>
+<?php if(isset($pagination)&&!empty($pagination)){?>
                             <tr>
                                 <td colspan=8 class="pagination">
                                     <?php echo isset($pagination) ? $pagination : '';?>
                                 </td>
                             </tr>
+<?php }?>
                             </tfoot>
                         </table>
                     </form>
@@ -187,10 +189,7 @@ if (!empty($subscribers)) {
                     if (isset($component))
                         if ($component == 'subscribers_groups') {
                             ?>
-                            </br><a
-                                href="<?php echo $base_url?>index.php/admin/subscribers/add/group/<?php echo $subscribers_group['group_id']?>">Add
-                                subscriber</a>
-                            <br/><a href="javascript:history.back()"><< Back</a>
+                            <input type="button" class="form-reset" onclick="javascript:history.back()" value="<< Back" />
                             <?php
                         }
                     ?>

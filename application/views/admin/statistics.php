@@ -37,38 +37,38 @@
 		});		
 	};
 </script>
-<div class="errors">
-<?php
-echo validation_errors(); 
-?>
-</div>
-
-Set time period:
+<?php require_once "content_header1.php"; ?>
+<b>Set time period:</b>
 <form action="<?php echo $base_url?>index.php/admin/statistics" method="post">
-	<table>
-		<tr>
-			<td>From:</td><td><input type="text" name="from" id="from" /></td>
-			<td>To:</td><td><input type="text" name="to" id="to" /></td>
-			<td><input type="submit" value="Set" /></td>
-		</tr>
-	</table>
+    <table id="id-form">
+        <tr>
+            <th>From:</th><td><input type="text" name="from" id="from" /></td>
+        </tr>
+        <tr>
+            <th>To:</th><td><input type="text" name="to" id="to" /></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Set" class="form-submit2" /></td>
+        </tr>
+    </table>
 </form>
-
-<table>
-	<tr>
-		<td>Total subscribers:</td>
-		<td><?php echo $subscribers_cnt?></td>
-	</tr>
-	<tr>
-		<td>Total active subscribers:</td>
-		<td><?php echo $active_subscribers_cnt?></td>
-	</tr>	
-	<tr>
-		<td>Total new subscribers:</td>
-		<td><?php echo $new_subscribers_cnt?></td>
-	</tr>	
-	<tr>
-		<td>Total unsubscribed:</td>
-		<td><?php echo $deleted_subscribers_cnt?></td>
-	</tr>	
+<br><br>
+<table id="id-form">
+    <tr>
+        <td><b>Total subscribers:</b></td>
+        <td><b><?php echo $subscribers_cnt?></b></td>
+    </tr>
+    <tr>
+        <td><b>Total active subscribers:</b></td>
+        <td><b><?php echo $active_subscribers_cnt?></b></td>
+    </tr>
+    <tr>
+        <td><b>Total new subscribers:</b></td>
+        <td><b><?php echo $new_subscribers_cnt?></b></td>
+    </tr>
+    <tr>
+        <td><b>Total unsubscribed:</b></td>
+        <td><b><?php echo $deleted_subscribers_cnt?></b></td>
+    </tr>
 </table>
+<?php require_once "content_footer1.php"; ?>

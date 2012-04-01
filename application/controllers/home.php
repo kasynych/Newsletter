@@ -11,6 +11,7 @@ class Home extends CI_Controller{
 		$this->data['base_url']=base_url();	
 	}
 	function index(){
+        header('Location: '.$this->data['base_url'].'index.php/admin/home');exit;
 		if($this->input->post()){
 			$this->form_validation->set_rules('name', 'Name', 'required|xss_clean|max_length=100');
 			$this->form_validation->set_rules('email', 'Email', 'required|xss_clean|valid_email|max_length=100');

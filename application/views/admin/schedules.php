@@ -1,6 +1,14 @@
 <?php
 if(!empty($schedules)){
 ?>
+<div id="message-yellow">
+    <table border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="yellow-left">This free web hosting does not provide cron jobs. That's why newsletter sending can not be performed</a></td>
+            <td class="yellow-right"><a class="close-yellow"><img src="<?php echo $base_url;?>application/images/table/icon_close_yellow.gif"   alt="" /></a></td>
+        </tr>
+    </table>
+</div>
 Server time: <?php echo date('d/m/Y H:i:s');?>
 <table border="0" width="100%" cellpadding="0" cellspacing="0" id="content-table">
     <tr>

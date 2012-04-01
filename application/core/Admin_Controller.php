@@ -28,6 +28,7 @@ class Admin_Controller extends CI_Controller{
 			$this->session->set_userdata('site_id',$site['site_id']);
 		}
 
+        if($this->session->userdata('site_id')===false) $this->session->set_userdata('site_id',1);
 		$site=$this->model_sites->get('site_id="'.$this->session->userdata('site_id').'"');
 
 		$this->data['site_title']=$site['title'];

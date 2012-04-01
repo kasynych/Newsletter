@@ -11,7 +11,7 @@ $(document).ready(function() {
 	$('#add_attachment').click(function(){
 		if(attachments>=max_attachments){alert('Please add maximum '+max_attachments+' attachments');return false;}
 		
-		$('#attachments').prepend('<div class="attachment"><input type="file" name="attachment[]"><a href="javascript:void()">remove</a></div>');
+		$('#attachments').prepend('<div class="attachment"><input type="file" name="attachment[]" class="file_1"><a href="javascript:void()"><img src="'+base_url+'application/images/table/action_delete.gif" style="margin:4px 0px 0px 4px" /></a></div>');
 		
 		$('#attachments :nth-child(1) :nth-child(2)').bind('click',function(){ // binding click event, otherwise does not work
 			if(attachments<=0) {attachments=0; return false;}

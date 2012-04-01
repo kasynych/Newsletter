@@ -30,15 +30,14 @@
 <?php echo 'Server time: '.date('D/m/Y H:i:s')?>
 <table>
 	<tr>
-		<td valign=top>Choose Subscriber(s):</td>
+		<th valign=top>Choose Subscriber(s):</th>
 		<td id="subscribers">
 			<select name="subscriber_id[]" multiple>
 <?php if(!empty($subscribers)){
 		foreach($subscribers as $subscriber){
 ?>
 			<option value="<?php echo $subscriber['subscriber_id']?>"
-					<?php echo in_array($subscriber['subscriber_id'],$schedule['subscribers'])?'selected=selected':''?>>
-				<?php echo $subscriber['name']?>
+					<?php echo in_array($subscriber['subscriber_id'],$schedule['subscribers'])?'selected=selected':''?>><?php echo $subscriber['name']?>
 			</option>
 <?php			
 		}
@@ -48,10 +47,10 @@
 		</td>
 	</tr>
 	<tr>
-		<td>OR</td>
+		<th>OR</th>
 	</tr>	
 	<tr>
-		<td valign=top>Choose Subscribers Groups:</td>
+		<th valign=top>Choose Subscribers Groups:</th>
 		<td id="subscribers_groups">
 			<select name="subscriber_group_id[]" multiple>
 <?php if(!empty($subscribers_groups)){
@@ -70,23 +69,24 @@
 	</tr>
 	<tr><td colspan=2><hr /></td></tr>
 	<tr>
-		<td>Set timing rule:</td>
-		<td id='time_rules'><input type="text" 
+		<th>Set timing rule:</th>
+		<td id='time_rules'><input type="text"  class="inp-form"
 								   name="time_rules"
 								   value="<?php echo $schedule['time_rules']?>" /></td>
 	</tr>
 	<tr>
-		<td>OR</td>
+		<th>OR</th>
 	</tr>
 	<tr>
-		<td>Set sending date and time:</td>
+		<th>Set sending date and time:</th>
 		<td id="date">
 			<input type="text" 
-				   name="send_date" 
+				   name="send_date"
+                   class="inp-form"
 				   id="send_date" 
 				   value="<?php echo $schedule['send_date']?>" />&nbsp;
-			&nbsp;Hour:&nbsp;<input type="text" name="send_hour" size=2 value="<?php echo $schedule['send_hour']?>">
-			&nbsp;Minute:&nbsp;<input type="text" name="send_minute" size=2 value="<?php echo $schedule['send_minute']?>">
+			&nbsp;Hour:&nbsp;<input type="text" class="inp-form" name="send_hour" size=2 value="<?php echo $schedule['send_hour']?>">
+			&nbsp;Minute:&nbsp;<input type="text" class="inp-form" name="send_minute" size=2 value="<?php echo $schedule['send_minute']?>">
 			&nbsp;&nbsp;<input type="button" value="Now" name="send_now">
 		</td> 
 	</tr>

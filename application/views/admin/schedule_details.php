@@ -1,9 +1,12 @@
+<?php if($show_newsletter===true){?>
+<?php require_once "content_header1.php"; ?>
+<?php }?>
 <?php if(is_array($schedule)&&!empty($schedule)){
 ?>
-<table>
+<table id="id-form">
 <?php if($show_newsletter===true){?>
 	<tr>
-		<td>Newsletter:</td>
+		<th>Newsletter:</th>
 		<td>
 			<a href="<?php echo $base_url?>index.php/admin/newsletters/showDetails/<?php echo $newsletter['newsletter_id']?>">
 				<?php echo $newsletter['subject']?>
@@ -12,11 +15,11 @@
 	</tr>
 <?php }?>
 	<tr>
-		<td>Schedule Title:</td>
+		<th>Schedule Title:</th>
 		<td><?php echo $schedule['title']?></td>
 	</tr>
 	<tr>
-		<td valign=top>Subscribers:</td>
+		<th valign=top>Subscribers:</th>
 		<td>
 <?php
 		if(count($schedule['subscribers'])>0){
@@ -32,19 +35,23 @@
 		</td>
 	</tr>	
 	<tr>
-		<td>Time:</td>
+		<th>Time:</th>
 		<td>
 			<?php echo (!empty($schedule['time_rules'])?$schedult['time_rules']:$schedule['send_datetime'])?>
 		</td>
 	</tr>
 	<tr>
 		<td colspan=2>
-			<input type="button" onclick="document.location.href='<?php echo $base_url?>index.php/admin/schedules/edit/<?php echo $schedule['schedule_id']?>'" value="Edit">
-<?php if($show_newsletter===true){?>			
-			</br><a href="<?php echo $base_url;?>index.php/admin/schedules">&lt;&lt;back</a>
+			<input type="button" class="form-submit" onclick="document.location.href='<?php echo $base_url?>index.php/admin/schedules/edit/<?php echo $schedule['schedule_id']?>'" value="Edit">
+<?php if($show_newsletter===true){?>
+            <div class="clear"></div>
+            <input type="button" class="form-reset" onclick="document.location.href='<?php echo $base_url;?>index.php/admin/schedules'" value="<< Back" />
 <?php }?>
 		</td>
 	</tr>	
 </table>
 <?php 
 }else echo 'Schedule not found';?>
+<?php if($show_newsletter===true){
+ require_once "content_footer1.php";
+}?>
