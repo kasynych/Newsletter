@@ -17,24 +17,17 @@
 
                         <!--  start table-content  -->
                         <div id="table-content">
-                            <h2>Sub Heading </h2>
-                            <h3>Local Heading</h3>
-
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  dolore magna aliqua.
-                            <br />
-                            <br />
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  dolore magna aliqua.
-                            <br />
-                            <br />
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  dolore magna aliqua.
-
-
+                            <h2>Newsletter System</h2>
+                            <h3>About Project</h3>
+                            This project is based on codeigniter. Flexibly configurable newsletter system allows to:
+                            <ul>
+                                <li>subscribe to news letters</li>
+                                <li>manage subscribers and subscribers groups</li>
+                                <li>manage newsletters</li>
+                                <li>manage newsletters templates</li>
+                                <li>schedule newsletters sending queues or make one time delivery</li>
+                            </ul>
+                            From technical part of view application is higly object oriented, is implemented on MVC pattern, with wide usage of exceptions for models.
                         </div>
                         <!--  end table-content  -->
 

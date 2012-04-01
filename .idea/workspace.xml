@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e8df213-4223-40c7-b2fb-06dda9fc4bc2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/content_footer1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/content_header1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/images/logo.png" afterPath="$PROJECT_DIR$/application/images/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/Admin_Controller.php" afterPath="$PROJECT_DIR$/application/core/Admin_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/css/screen.css" afterPath="$PROJECT_DIR$/application/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/js/functions.js" afterPath="$PROJECT_DIR$/application/libraries/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/settings.ini" afterPath="$PROJECT_DIR$/application/settings.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/layout.php" afterPath="$PROJECT_DIR$/application/views/admin/layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/newsletter_details.php" afterPath="$PROJECT_DIR$/application/views/admin/newsletter_details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/newsletter_form.php" afterPath="$PROJECT_DIR$/application/views/admin/newsletter_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/newsletter_send_form.php" afterPath="$PROJECT_DIR$/application/views/admin/newsletter_send_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/newsletters_group_form.php" afterPath="$PROJECT_DIR$/application/views/admin/newsletters_group_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/schedule_details.php" afterPath="$PROJECT_DIR$/application/views/admin/schedule_details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/schedule_form.php" afterPath="$PROJECT_DIR$/application/views/admin/schedule_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/schedules.php" afterPath="$PROJECT_DIR$/application/views/admin/schedules.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/settings_form.php" afterPath="$PROJECT_DIR$/application/views/admin/settings_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/statistics.php" afterPath="$PROJECT_DIR$/application/views/admin/statistics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/subscriber_details.php" afterPath="$PROJECT_DIR$/application/views/admin/subscriber_details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/subscriber_form.php" afterPath="$PROJECT_DIR$/application/views/admin/subscriber_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/subscribers.php" afterPath="$PROJECT_DIR$/application/views/admin/subscribers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/subscribers_group_form.php" afterPath="$PROJECT_DIR$/application/views/admin/subscribers_group_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/subscribers_import_form.php" afterPath="$PROJECT_DIR$/application/views/admin/subscribers_import_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/template_details.php" afterPath="$PROJECT_DIR$/application/views/admin/template_details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/template_form.php" afterPath="$PROJECT_DIR$/application/views/admin/template_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/home.php" afterPath="$PROJECT_DIR$/application/views/admin/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/login.php" afterPath="$PROJECT_DIR$/application/views/admin/login.php" />
     </list>
     <ignored path="newsletter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="81" selection-start="449" selection-end="449" vertical-scroll-proportion="0.42175573">
+            <state line="13" column="81" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,7 +39,25 @@
       <file leaf-file-name="Admin_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/Admin_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="98" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
+            <state line="20" column="54" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="94" selection-start="1263" selection-end="1263" vertical-scroll-proportion="-7.423077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="102" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.34136546">
               <folding />
             </state>
           </provider>
@@ -91,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/admin/subscribers_import_form.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/subscribers_group_form.php" />
         <option value="$PROJECT_DIR$/application/views/admin/newsletter_form.php" />
         <option value="$PROJECT_DIR$/application/views/admin/schedule_form.php" />
         <option value="$PROJECT_DIR$/application/views/admin/template_form.php" />
@@ -105,8 +99,10 @@
         <option value="$PROJECT_DIR$/application/views/admin/schedule_details.php" />
         <option value="$PROJECT_DIR$/application/css/screen.css" />
         <option value="$PROJECT_DIR$/application/views/admin/subscribers.php" />
-        <option value="$PROJECT_DIR$/application/core/Admin_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/home.php" />
+        <option value="$PROJECT_DIR$/application/core/Admin_Controller.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/login.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/home.php" />
       </list>
     </option>
   </component>
@@ -231,46 +227,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsletter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsletter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsletter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsletter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,20 +362,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/admin/schedule_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="815" selection-end="4146" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/template_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="367" selection-end="3187" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/newsletters_group_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="4" selection-start="163" selection-end="887" vertical-scroll-proportion="-1.3076923">
@@ -497,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/Admin_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="98" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -513,7 +448,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="81" selection-start="449" selection-end="449" vertical-scroll-proportion="0.42175573">
+        <state line="13" column="81" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/Admin_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="54" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="94" selection-start="1263" selection-end="1263" vertical-scroll-proportion="-7.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="102" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.34136546">
           <folding />
         </state>
       </provider>

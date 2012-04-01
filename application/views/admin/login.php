@@ -27,7 +27,7 @@
 
         <!-- start logo -->
         <div id="logo-login">
-            <a href="index.html"><img src="<?php echo $base_url;?>application/images/logo.png" width="156" height="141" alt="" /></a>
+            <a href="index.html"><img src="<?php echo $base_url;?>application/images/logo.png" height="141" alt="" /></a>
         </div>
         <!-- end logo -->
 
@@ -51,7 +51,7 @@
                     </tr>
                     <tr>
                         <th>Username</th>
-                        <td><input type="text" name="name" value="" /></td>
+                        <td><input type="text" name="name" value="" class="login-inp" /></td>
                     </tr>
                     <tr>
                         <th>Password</th>
@@ -62,6 +62,7 @@
                         <td><input type="submit" class="submit-login"  /></td>
                     </tr>
                 </table>
+                <div id="forgotbox-text">Demo username: demo<br/>Demo password: demo</div>
             </div>
             </form>
             <!--  end login-inner -->
