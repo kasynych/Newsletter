@@ -19,7 +19,7 @@ class Admin_Controller extends CI_Controller{
 		$this->model_settings->get();
 		if($this->session->userdata('site_id')===false){
             $this->session->set_userdata('site_id',1);
-			$site=$this->model_sites->get('site_id="'.$this->uri->segment(4).'"');
+			$site=$this->model_sites->get('site_id="'.$this->session->userdata('site_id').'"');
 			$this->session->set_userdata('site_id',$site['site_id']);
 		}elseif($this->uri->segment(2)=='home'&&is_numeric($this->uri->segment(4))){
 			$this->session->unset_userdata('site_id');

@@ -52,6 +52,7 @@ class Subscribers extends Admin_Controller{
 					$subscribers_list=$this->model_subscribers->getPagedList(null,is_numeric($this->uri->segment(5))?$this->uri->segment(5):0,$order);
 			}
 		}catch(Exception $e){
+            $this->data['errors']=array();
 			$this->data['errors'][]=$e->getMessage();		
 		}
 		

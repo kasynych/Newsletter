@@ -27,7 +27,7 @@
 
         <!-- start logo -->
         <div id="logo-login">
-            <a href="index.html"><img src="<?php echo $base_url;?>application/images/logo.png" height="141" alt="" /></a>
+            <img src="<?php echo $base_url;?>application/images/logo.png" height="141" alt="" />
         </div>
         <!-- end logo -->
 
